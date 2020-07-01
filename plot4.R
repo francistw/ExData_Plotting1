@@ -19,7 +19,7 @@ plot(Date_and_Time, hpc$Sub_metering_1,
      xlab = "", ylab = "Energy sub metering")
 lines(Date_and_Time, hpc$Sub_metering_2, col = "red")
 lines(Date_and_Time, hpc$Sub_metering_3, col = "blue")
-legend("topright", lty = c(1,1,1),
+legend("topright", lty = c(1,1,1), bty = "n",
        col = c("black", "red", "blue"),
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
